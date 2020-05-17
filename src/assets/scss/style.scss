@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Lora');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "base/base";
+@import "./components/button";
+@import "./components/form";
+@import "./layout/footer";
+@import "./layout/header";
+@import './pages/home';

@@ -1,7 +1,11 @@
 module.exports = {
-  moduleFileExtensions: ['js', 'json'],
+  moduleFileExtensions: ['js', 'jsx', 'json'],
   rootDir: '__tests__',
-  testRegex: ['.spec.js$', '.test.js$'],
+  testMatch: ['**/__tests__/**/*.js?(x)', '**/?(*.)+(spec|test).js?(x)'],
+  testPathIgnorePatterns: ['\\\\node_modules\\\\'],
+  testURL: 'http://localhost',
+  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  verbose: true,
   coverageDirectory: './coverage',
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
 };

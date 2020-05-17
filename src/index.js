@@ -1,11 +1,20 @@
-import app from './app';
+import React from 'react';
+import { render } from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Test from '<helpers>/Text';
+import './assets/scss/style.scss';
 
-const startApp = async () => {
-  const header = document.querySelector('[data-app-name]');
-  if (!header) return;
-
-  const programName = await app();
-  header.textContent = programName;
+const App = () => {
+  return (
+    <div className="container">
+      <h2>Welcome to BuildForSdg Team-018 App</h2>
+      <Test />
+    </div>
+  );
 };
 
-document.addEventListener('DOMContentLoaded', startApp);
+render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>, document.getElementById('root'),
+);
