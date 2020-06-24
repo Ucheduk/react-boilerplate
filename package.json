@@ -1,9 +1,9 @@
 {
-  "name": "js-starter",
+  "name": "react-boilerplate",
   "version": "0.0.1",
-  "description": "A boilerplate for starting js code",
+  "description": "A simple react boilerplate with unit test",
   "keywords": [
-    "js-starter",
+    "react-boilerplate",
     "boilerplate"
   ],
   "private": false,
@@ -36,16 +36,16 @@
     "dev": "webpack-dev-server  --env.mode development"
   },
   "author": {
-    "name": "Build For SDG",
-    "email": "buildforsdg@andela.com"
+    "name": "Ucheduk",
+    "email": "uchenwakwuo@cre8tivetech.com"
   },
-  "homepage": "https://github.com/BuildForSDG/js-starter#readme",
+  "homepage": "https://github.com/Ucheduk/react-boilerplate#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BuildForSDG/js-starter.git"
+    "url": "https://github.com/Ucheduk/react-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/BuildForSDG/js-starter/issues"
+    "url": "https://github.com/Ucheduk/react-boilerplate/issues"
   },
   "license": "MIT",
   "dependencies": {
